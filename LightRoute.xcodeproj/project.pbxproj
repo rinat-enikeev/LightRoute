@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E4EAEAA2386529C00BBDFBD /* LightRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EAE9B2386529C00BBDFBD /* LightRoute.swift */; };
+		0E4EAEAB2386529C00BBDFBD /* TransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EAE9D2386529C00BBDFBD /* TransitionNode.swift */; };
+		0E4EAEAC2386529C00BBDFBD /* GenericTransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EAE9E2386529C00BBDFBD /* GenericTransitionNode.swift */; };
+		0E4EAEAD2386529C00BBDFBD /* SegueTransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EAE9F2386529C00BBDFBD /* SegueTransitionNode.swift */; };
+		0E4EAEAE2386529C00BBDFBD /* CustomTransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EAEA02386529C00BBDFBD /* CustomTransitionNode.swift */; };
+		0E4EAEAF2386529C00BBDFBD /* CloseTransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EAEA12386529C00BBDFBD /* CloseTransitionNode.swift */; };
+		0E4EAEB02386529C00BBDFBD /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EAEA22386529C00BBDFBD /* UIViewController+Extension.swift */; };
+		0E4EAEB12386529C00BBDFBD /* LightRouteErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EAEA32386529C00BBDFBD /* LightRouteErrors.swift */; };
+		0E4EAEB22386529C00BBDFBD /* StoryboardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EAEA42386529C00BBDFBD /* StoryboardFactory.swift */; };
+		0E4EAEB32386529C00BBDFBD /* StoryboardFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EAEA62386529C00BBDFBD /* StoryboardFactoryProtocol.swift */; };
+		0E4EAEB42386529C00BBDFBD /* ViewContainerForEmbedSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EAEA72386529C00BBDFBD /* ViewContainerForEmbedSegue.swift */; };
+		0E4EAEB52386529C00BBDFBD /* TransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EAEA82386529C00BBDFBD /* TransitionHandler.swift */; };
+		0E4EAEB62386529C00BBDFBD /* EmbedSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EAEA92386529C00BBDFBD /* EmbedSegue.swift */; };
 		BC7786DA205595DE0053DB88 /* LightRoute_iOS_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7786D9205595DE0053DB88 /* LightRoute_iOS_Tests.swift */; };
 		BC7786DC205595DE0053DB88 /* LightRoute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF31A4AE1E9C073500DAED51 /* LightRoute.framework */; };
-		EF24A5061FA0FEBA00F3FAA6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24A5051FA0FEBA00F3FAA6 /* UIViewController+Extension.swift */; };
-		EF24A50B1FA1324700F3FAA6 /* CustomTransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24A50A1FA1324700F3FAA6 /* CustomTransitionNode.swift */; };
-		EF24A50D1FA1326E00F3FAA6 /* SegueTransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24A50C1FA1326E00F3FAA6 /* SegueTransitionNode.swift */; };
-		EF24A5101FA132A100F3FAA6 /* TransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24A50F1FA132A100F3FAA6 /* TransitionNode.swift */; };
-		EF24A5121FA132C900F3FAA6 /* GenericTransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24A5111FA132C900F3FAA6 /* GenericTransitionNode.swift */; };
-		EF24A5161FA60D1400F3FAA6 /* CloseTransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24A5151FA60D1400F3FAA6 /* CloseTransitionNode.swift */; };
 		EF31A4BF1E9C073500DAED51 /* LightRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = EF31A4B11E9C073500DAED51 /* LightRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF31A4C91E9C074A00DAED51 /* LightRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF31A4C81E9C074A00DAED51 /* LightRoute.swift */; };
-		EF5899B11F83D49200C5835E /* LightRouteErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5899B01F83D49200C5835E /* LightRouteErrors.swift */; };
-		EF63FB3D1F87A1F70039F99D /* TransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF63FB3C1F87A1F70039F99D /* TransitionHandler.swift */; };
-		EF63FB3F1F87BAA70039F99D /* StoryboardFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF63FB3E1F87BAA60039F99D /* StoryboardFactoryProtocol.swift */; };
-		EF63FB411F87BAC00039F99D /* StoryboardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF63FB401F87BAC00039F99D /* StoryboardFactory.swift */; };
-		F0DC6EBE2072B665001B0025 /* ViewContainerForEmbedSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DC6EBD2072B665001B0025 /* ViewContainerForEmbedSegue.swift */; };
-		F0DC6EC22072BF74001B0025 /* EmbedSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DC6EC12072BF74001B0025 /* EmbedSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,25 +36,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E4EAE9B2386529C00BBDFBD /* LightRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightRoute.swift; sourceTree = "<group>"; };
+		0E4EAE9D2386529C00BBDFBD /* TransitionNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionNode.swift; sourceTree = "<group>"; };
+		0E4EAE9E2386529C00BBDFBD /* GenericTransitionNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericTransitionNode.swift; sourceTree = "<group>"; };
+		0E4EAE9F2386529C00BBDFBD /* SegueTransitionNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueTransitionNode.swift; sourceTree = "<group>"; };
+		0E4EAEA02386529C00BBDFBD /* CustomTransitionNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTransitionNode.swift; sourceTree = "<group>"; };
+		0E4EAEA12386529C00BBDFBD /* CloseTransitionNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseTransitionNode.swift; sourceTree = "<group>"; };
+		0E4EAEA22386529C00BBDFBD /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		0E4EAEA32386529C00BBDFBD /* LightRouteErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightRouteErrors.swift; sourceTree = "<group>"; };
+		0E4EAEA42386529C00BBDFBD /* StoryboardFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardFactory.swift; sourceTree = "<group>"; };
+		0E4EAEA62386529C00BBDFBD /* StoryboardFactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardFactoryProtocol.swift; sourceTree = "<group>"; };
+		0E4EAEA72386529C00BBDFBD /* ViewContainerForEmbedSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewContainerForEmbedSegue.swift; sourceTree = "<group>"; };
+		0E4EAEA82386529C00BBDFBD /* TransitionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionHandler.swift; sourceTree = "<group>"; };
+		0E4EAEA92386529C00BBDFBD /* EmbedSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbedSegue.swift; sourceTree = "<group>"; };
 		BC7786D0205595880053DB88 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC7786D7205595DE0053DB88 /* LightRoute-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LightRoute-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7786D9205595DE0053DB88 /* LightRoute_iOS_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightRoute_iOS_Tests.swift; sourceTree = "<group>"; };
 		BC7786DB205595DE0053DB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF24A5051FA0FEBA00F3FAA6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
-		EF24A50A1FA1324700F3FAA6 /* CustomTransitionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionNode.swift; sourceTree = "<group>"; };
-		EF24A50C1FA1326E00F3FAA6 /* SegueTransitionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueTransitionNode.swift; sourceTree = "<group>"; };
-		EF24A50F1FA132A100F3FAA6 /* TransitionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionNode.swift; sourceTree = "<group>"; };
-		EF24A5111FA132C900F3FAA6 /* GenericTransitionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTransitionNode.swift; sourceTree = "<group>"; };
-		EF24A5151FA60D1400F3FAA6 /* CloseTransitionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseTransitionNode.swift; sourceTree = "<group>"; };
 		EF31A4AE1E9C073500DAED51 /* LightRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LightRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF31A4B11E9C073500DAED51 /* LightRoute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightRoute.h; sourceTree = "<group>"; };
-		EF31A4C81E9C074A00DAED51 /* LightRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightRoute.swift; sourceTree = "<group>"; };
-		EF5899B01F83D49200C5835E /* LightRouteErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightRouteErrors.swift; sourceTree = "<group>"; };
-		EF63FB3C1F87A1F70039F99D /* TransitionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionHandler.swift; sourceTree = "<group>"; };
-		EF63FB3E1F87BAA60039F99D /* StoryboardFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardFactoryProtocol.swift; sourceTree = "<group>"; };
-		EF63FB401F87BAC00039F99D /* StoryboardFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardFactory.swift; sourceTree = "<group>"; };
-		F0DC6EBD2072B665001B0025 /* ViewContainerForEmbedSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContainerForEmbedSegue.swift; sourceTree = "<group>"; };
-		F0DC6EC12072BF74001B0025 /* EmbedSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbedSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +76,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E4EAE9A2386529C00BBDFBD /* LightRoute */ = {
+			isa = PBXGroup;
+			children = (
+				0E4EAE9B2386529C00BBDFBD /* LightRoute.swift */,
+				0E4EAE9C2386529C00BBDFBD /* TransitionNodes */,
+				0E4EAEA22386529C00BBDFBD /* UIViewController+Extension.swift */,
+				0E4EAEA32386529C00BBDFBD /* LightRouteErrors.swift */,
+				0E4EAEA42386529C00BBDFBD /* StoryboardFactory.swift */,
+				0E4EAEA52386529C00BBDFBD /* Protocols */,
+				0E4EAEA92386529C00BBDFBD /* EmbedSegue.swift */,
+			);
+			path = LightRoute;
+			sourceTree = "<group>";
+		};
+		0E4EAE9C2386529C00BBDFBD /* TransitionNodes */ = {
+			isa = PBXGroup;
+			children = (
+				0E4EAE9D2386529C00BBDFBD /* TransitionNode.swift */,
+				0E4EAE9E2386529C00BBDFBD /* GenericTransitionNode.swift */,
+				0E4EAE9F2386529C00BBDFBD /* SegueTransitionNode.swift */,
+				0E4EAEA02386529C00BBDFBD /* CustomTransitionNode.swift */,
+				0E4EAEA12386529C00BBDFBD /* CloseTransitionNode.swift */,
+			);
+			path = TransitionNodes;
+			sourceTree = "<group>";
+		};
+		0E4EAEA52386529C00BBDFBD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0E4EAEA62386529C00BBDFBD /* StoryboardFactoryProtocol.swift */,
+				0E4EAEA72386529C00BBDFBD /* ViewContainerForEmbedSegue.swift */,
+				0E4EAEA82386529C00BBDFBD /* TransitionHandler.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		BC7786C9205594F70053DB88 /* LightRoute-iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,18 +128,6 @@
 				BC7786DB205595DE0053DB88 /* Info.plist */,
 			);
 			path = "LightRoute-iOS-Tests";
-			sourceTree = "<group>";
-		};
-		EF24A5071FA131F300F3FAA6 /* TransitionNodes */ = {
-			isa = PBXGroup;
-			children = (
-				EF24A50A1FA1324700F3FAA6 /* CustomTransitionNode.swift */,
-				EF24A50C1FA1326E00F3FAA6 /* SegueTransitionNode.swift */,
-				EF24A50F1FA132A100F3FAA6 /* TransitionNode.swift */,
-				EF24A5111FA132C900F3FAA6 /* GenericTransitionNode.swift */,
-				EF24A5151FA60D1400F3FAA6 /* CloseTransitionNode.swift */,
-			);
-			path = TransitionNodes;
 			sourceTree = "<group>";
 		};
 		EF31A4A41E9C073500DAED51 = {
@@ -128,25 +152,9 @@
 		EF31A4B01E9C073500DAED51 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				EF24A5071FA131F300F3FAA6 /* TransitionNodes */,
-				EF63FB3B1F87A1ED0039F99D /* Protocols */,
-				EF31A4C81E9C074A00DAED51 /* LightRoute.swift */,
-				EF5899B01F83D49200C5835E /* LightRouteErrors.swift */,
-				EF63FB401F87BAC00039F99D /* StoryboardFactory.swift */,
-				EF24A5051FA0FEBA00F3FAA6 /* UIViewController+Extension.swift */,
-				F0DC6EC12072BF74001B0025 /* EmbedSegue.swift */,
+				0E4EAE9A2386529C00BBDFBD /* LightRoute */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		EF63FB3B1F87A1ED0039F99D /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				EF63FB3C1F87A1F70039F99D /* TransitionHandler.swift */,
-				EF63FB3E1F87BAA60039F99D /* StoryboardFactoryProtocol.swift */,
-				F0DC6EBD2072B665001B0025 /* ViewContainerForEmbedSegue.swift */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +234,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = EF31A4A41E9C073500DAED51;
@@ -269,19 +278,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0DC6EBE2072B665001B0025 /* ViewContainerForEmbedSegue.swift in Sources */,
-				EF24A5121FA132C900F3FAA6 /* GenericTransitionNode.swift in Sources */,
-				EF24A5061FA0FEBA00F3FAA6 /* UIViewController+Extension.swift in Sources */,
-				EF24A50D1FA1326E00F3FAA6 /* SegueTransitionNode.swift in Sources */,
-				EF24A50B1FA1324700F3FAA6 /* CustomTransitionNode.swift in Sources */,
-				EF31A4C91E9C074A00DAED51 /* LightRoute.swift in Sources */,
-				EF63FB411F87BAC00039F99D /* StoryboardFactory.swift in Sources */,
-				EF63FB3F1F87BAA70039F99D /* StoryboardFactoryProtocol.swift in Sources */,
-				EF24A5161FA60D1400F3FAA6 /* CloseTransitionNode.swift in Sources */,
-				EF5899B11F83D49200C5835E /* LightRouteErrors.swift in Sources */,
-				EF24A5101FA132A100F3FAA6 /* TransitionNode.swift in Sources */,
-				EF63FB3D1F87A1F70039F99D /* TransitionHandler.swift in Sources */,
-				F0DC6EC22072BF74001B0025 /* EmbedSegue.swift in Sources */,
+				0E4EAEAC2386529C00BBDFBD /* GenericTransitionNode.swift in Sources */,
+				0E4EAEAB2386529C00BBDFBD /* TransitionNode.swift in Sources */,
+				0E4EAEB22386529C00BBDFBD /* StoryboardFactory.swift in Sources */,
+				0E4EAEAD2386529C00BBDFBD /* SegueTransitionNode.swift in Sources */,
+				0E4EAEAF2386529C00BBDFBD /* CloseTransitionNode.swift in Sources */,
+				0E4EAEB02386529C00BBDFBD /* UIViewController+Extension.swift in Sources */,
+				0E4EAEB12386529C00BBDFBD /* LightRouteErrors.swift in Sources */,
+				0E4EAEB32386529C00BBDFBD /* StoryboardFactoryProtocol.swift in Sources */,
+				0E4EAEB42386529C00BBDFBD /* ViewContainerForEmbedSegue.swift in Sources */,
+				0E4EAEAE2386529C00BBDFBD /* CustomTransitionNode.swift in Sources */,
+				0E4EAEAA2386529C00BBDFBD /* LightRoute.swift in Sources */,
+				0E4EAEB52386529C00BBDFBD /* TransitionHandler.swift in Sources */,
+				0E4EAEB62386529C00BBDFBD /* EmbedSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +308,7 @@
 		BC7786E0205595DE0053DB88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -318,6 +328,7 @@
 		BC7786E1205595DE0053DB88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -461,6 +472,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.hipsterknight.LightRoute;
 				PRODUCT_NAME = LightRoute;
 				SKIP_INSTALL = YES;
@@ -484,6 +496,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.hipsterknight.LightRoute;
 				PRODUCT_NAME = LightRoute;
 				SKIP_INSTALL = YES;
